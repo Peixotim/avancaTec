@@ -21,8 +21,8 @@ export default function Contact() {
     {
       icon: <Instagram className="w-6 h-6 text-pink-500" />,
       label: "Instagram",
-      value: "educatec.canaa",
-      href: "https://instagram.com/educatec.canaa",
+      value: "avancatecoficial",
+      href: "https://www.instagram.com/avancatecoficial/",
     },
     {
       icon: <MapPin className="w-6 h-6 text-green-600" />,

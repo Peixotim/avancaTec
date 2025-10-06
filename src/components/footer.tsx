@@ -113,9 +113,9 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 mt-1 text-[#F2A413]" />
                 <span>
-                  Canaã dos Carajás, 94
+                  R. Luiz Rodrigues dos Santos
                   <br />
-                  Bairro Vale Dourado, Pará
+                  Cel. Fabriciano - MG
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -124,13 +124,13 @@ const Footer = () => {
                   href="mailto:ilconsultoria@outlook.com"
                   className="hover:text-[#F2A413]"
                 >
-                  ilconsultoria@outlook.com
+                  gestaoavancatec@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-[#F2A413]" />
                 <a href="tel:+5531999022636" className="hover:text-[#F2A413]">
-                  (31) 99902-2636
+                  (31) 98263-1563
                 </a>
               </li>
             </ul>
@@ -143,7 +143,7 @@ const Footer = () => {
             © {new Date().getFullYear()} AvançaTec. Todos os direitos
             reservados.
           </p>
-          <p className="text-sm text-white/70">CNPJ: 62.315.934/0001-70</p>
+          <p className="text-sm text-white/70">CNPJ: 38.063.045/0001-88</p>
         </div>
       </div>
     </footer>
