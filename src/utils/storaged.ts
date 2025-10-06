@@ -14,14 +14,14 @@ export default function Storaged(): CardPageProps[] {
         "Conteúdo atualizado com tendências",
       ],
       img: {
-        src: "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
+        src: "",
         alt: "Profissionais da saúde em uma discussão de caso",
       },
-      bgColorFlag: "bg-red-100 text-red-800", // <-- MUDADO
-      bgColorCategory: "bg-red-100 text-red-800", // <-- MUDADO
-      bgColorHover: "hover:bg-red-700", // <-- MUDADO
-      maisClicado : true,
-      lancamentos : false,
+      bgColorFlag: "bg-red-100 text-red-800",
+      bgColorCategory: "bg-red-100 text-red-800",
+      bgColorHover: "hover:bg-red-700",
+      maisClicado: true,
+      lancamentos: false,
     },
     {
       title: "Administração & Gestão – Liderança na Prática",
@@ -34,36 +34,36 @@ export default function Storaged(): CardPageProps[] {
         "Instrutores experientes",
         "Aprenda gestão moderna",
       ],
-      img:{
-        src: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg",
-        alt: "Equipe de gestão e liderança colaborando em um escritório moderno"
+      img: {
+        src: "",
+        alt: "Equipe de gestão e liderança colaborando em um escritório moderno",
       },
-      bgColorFlag: "bg-amber-100 text-amber-800", // <-- MUDADO
-      bgColorCategory: "bg-blue-100 text-blue-800", // <-- MUDADO
-      bgColorHover: "hover:bg-blue-700", // <-- MUDADO
-      maisClicado : false,
-      lancamentos : false,
+      bgColorFlag: "bg-amber-100 text-amber-800",
+      bgColorCategory: "bg-blue-100 text-blue-800",
+      bgColorHover: "hover:bg-blue-700",
+      maisClicado: false,
+      lancamentos: false,
     },
     {
       title: "Tecnologia e Informática – Futuro em Suas Mãos",
       description:
         "💻 Torne-se indispensável no mercado digital! Aprenda programação, redes e inovação com métodos práticos. Comece hoje mesmo e garanta sua vaga nesse setor que não para de crescer!",
-      category: "Tecnología",
+      category: "Tecnologia",
       flag: "⭐ Novidade",
       benneficies: [
         "Aprenda com cases reais",
         "Certificado valorizado",
         "Suporte dedicado",
       ],
-      img:{
-        src:"",
-        alt:"Desenvolvedor trabalhando com código em múltiplas telas",
+      img: {
+        src: "",
+        alt: "Desenvolvedor trabalhando com código em múltiplas telas",
       },
-      bgColorFlag: "bg-indigo-100 text-indigo-800", // <-- MUDADO
-      bgColorCategory: "bg-purple-100 text-purple-800", // <-- MUDADO
-      bgColorHover: "hover:bg-purple-700", // <-- MUDADO
-      maisClicado : true,
-      lancamentos : true,
+      bgColorFlag: "bg-indigo-100 text-indigo-800",
+      bgColorCategory: "bg-purple-100 text-purple-800",
+      bgColorHover: "hover:bg-purple-700",
+      maisClicado: true,
+      lancamentos: true,
     },
     {
       title: "Engenharia & Manutenção – Carreira Sólida",
@@ -76,15 +76,15 @@ export default function Storaged(): CardPageProps[] {
         "Instrutores qualificados",
         "Formação completa",
       ],
-      img:{
-        src:"",
-        alt:"Engenheiro industrial inspecionando maquinário em uma fábrica",
+      img: {
+        src: "",
+        alt: "Engenheiro industrial inspecionando maquinário em uma fábrica",
       },
-      bgColorFlag: "bg-amber-100 text-amber-800", // <-- MUDADO
-      bgColorCategory: "bg-slate-100 text-slate-800", // <-- MUDADO
-      bgColorHover: "hover:bg-slate-700", // <-- MUDADO
-      maisClicado : false,
-      lancamentos : false,
+      bgColorFlag: "bg-amber-100 text-amber-800",
+      bgColorCategory: "bg-slate-100 text-slate-800",
+      bgColorHover: "hover:bg-slate-700",
+      maisClicado: false,
+      lancamentos: false,
     },
     {
       title: "Construção e Infraestrutura – Transforme Cidades",
@@ -97,15 +97,15 @@ export default function Storaged(): CardPageProps[] {
         "Certificação nacional",
         "Conteúdo atualizado",
       ],
-      img:{
+      img: {
         src: "",
-        alt: "Canteiro de obras de um grande projeto de infraestrutura urbana"
+        alt: "Canteiro de obras de um grande projeto de infraestrutura urbana",
       },
-      bgColorFlag: "bg-red-100 text-red-800", // <-- MUDADO
-      bgColorCategory: "bg-slate-100 text-slate-800", // <-- MUDADO
-      bgColorHover: "hover:bg-slate-700", // <-- MUDADO
-      maisClicado : false,
-      lancamentos : false,
+      bgColorFlag: "bg-red-100 text-red-800",
+      bgColorCategory: "bg-slate-100 text-slate-800",
+      bgColorHover: "hover:bg-slate-700",
+      maisClicado: false,
+      lancamentos: false,
     },
     {
       title: "Meio Ambiente & Agro – Impacto com Resultado",
@@ -118,15 +118,15 @@ export default function Storaged(): CardPageProps[] {
         "Reconhecimento no mercado",
         "Aulas com especialistas",
       ],
-      img:{
-        src:"",
-        alt:"Agrônomo analisando uma plantação com um tablet na mão",
+      img: {
+        src: "",
+        alt: "Agrônomo analisando uma plantação com um tablet na mão",
       },
-      bgColorFlag: "bg-green-100 text-green-800", // <-- MUDADO
-      bgColorCategory: "bg-green-100 text-green-800", // <-- MUDADO
-      bgColorHover: "hover:bg-green-700", // <-- MUDADO
-      maisClicado : false,
-      lancamentos : true,
+      bgColorFlag: "bg-green-100 text-green-800",
+      bgColorCategory: "bg-green-100 text-green-800",
+      bgColorHover: "hover:bg-green-700",
+      maisClicado: false,
+      lancamentos: true,
     },
     {
       title: "Serviços – Ganhe Autoridade e Mais Clientes",
@@ -139,15 +139,15 @@ export default function Storaged(): CardPageProps[] {
         "Materiais completos",
         "Flexibilidade total",
       ],
-      img:{
-        src:"",
-        alt:"Chef de cozinha profissional preparando um prato gourmet"
+      img: {
+        src: "",
+        alt: "Chef de cozinha profissional preparando um prato gourmet",
       },
-      bgColorFlag: "bg-amber-100 text-amber-800", // <-- MUDADO
-      bgColorCategory: "bg-teal-100 text-teal-800", // <-- MUDADO
-      bgColorHover: "hover:bg-teal-700", // <-- MUDADO
-      maisClicado : true,
-      lancamentos : false,
+      bgColorFlag: "bg-amber-100 text-amber-800",
+      bgColorCategory: "bg-teal-100 text-teal-800",
+      bgColorHover: "hover:bg-teal-700",
+      maisClicado: true,
+      lancamentos: false,
     },
   ];
 }
