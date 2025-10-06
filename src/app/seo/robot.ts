@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://seudominio.com/sitemap.xml", //Mudar depois
+    sitemap: "https://colegioavancatec.com.br/sitemap.xml",
+    host: "https://colegioavancatec.com.br",
   };
 }

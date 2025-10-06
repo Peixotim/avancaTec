@@ -13,34 +13,37 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "AvancaTec - Cursos Técnicos ",
-    template: "%s | AvancaTec",
+    default: "AvançaTec - Cursos Técnicos e Profissionalizantes",
+    template: "%s | AvançaTec",
   },
   description:
-    "Educatec Canaã oferece cursos técnicos e profissionalizantes para transformar sua carreira. Inscreva-se e conquiste seu futuro!",
+    "AvançaTec oferece cursos técnicos e profissionalizantes reconhecidos pelo MEC. Invista na sua formação e transforme seu futuro com educação de excelência!",
   keywords: [
-    "educatec canaã",
+    "avançatec",
+    "colégio avançatec",
     "cursos técnicos",
     "cursos profissionalizantes",
-    "cursos em Canaã dos Carajás",
     "educação técnica",
+    "Canaã dos Carajás",
+    "ensino técnico",
+    "colégio técnico",
   ],
-  authors: [{ name: "Educatec Canaã" }],
-  creator: "Educatec Canaã",
-  publisher: "Educatec Canaã",
-  metadataBase: new URL("https://seudominio.com"),
+  authors: [{ name: "AvançaTec" }],
+  creator: "AvançaTec",
+  publisher: "AvançaTec",
+  metadataBase: new URL("https://colegioavancatec.com.br"),
   openGraph: {
-    title: "Educatec Canaã - Cursos Técnicos em Canaã dos Carajás",
+    title: "AvançaTec - Cursos Técnicos e Profissionalizantes",
     description:
-      "Transforme sua vida com cursos técnicos de qualidade. Conheça Educatec Canaã.",
-    url: "https://seudominio.com",
-    siteName: "Educatec Canaã",
+      "Transforme sua vida com cursos técnicos e profissionalizantes reconhecidos pelo MEC. Conheça o AvançaTec e dê o próximo passo na sua carreira!",
+    url: "https://colegioavancatec.com.br",
+    siteName: "AvançaTec",
     images: [
       {
-        url: "https://seudominio.com/og-image.jpg",
+        url: "https://colegioavancatec.com.br/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Educatec Canaã",
+        alt: "AvançaTec - Educação Técnica de Qualidade",
       },
     ],
     locale: "pt_BR",
@@ -48,10 +51,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Educatec Canaã - Cursos Técnicos em Canaã dos Carajás",
+    title: "AvançaTec - Cursos Técnicos e Profissionalizantes",
     description:
-      "Cursos técnicos e profissionalizantes para transformar seu futuro.",
-    images: ["https://seudominio.com/og-image.jpg"],
+      "Cursos técnicos de qualidade reconhecidos pelo MEC. Matricule-se no AvançaTec e conquiste seu futuro!",
+    images: ["https://colegioavancatec.com.br/og-image.jpg"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   robots: {
     index: true,
@@ -67,22 +75,25 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth scroll-pt-24">
       <head>
+        {/* SEO Schema e Favicon */}
         <SchemaOrg />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#024E0E" />
       </head>
 
       <body
         className={`${montserrat.className} bg-white text-gray-900 antialiased`}
       >
-        {/* Layout geral com sidebar e conteúdo */}
         <div className="flex">
-          {/* Sidebar fixa à esquerda */}
+          {/* Sidebar fixa */}
           <Sidebar />
 
           {/* Conteúdo principal */}
           <main className="flex-1 overflow-x-hidden transition-all duration-300">
             {children}
 
-            {/* Elementos fixos globais */}
+            {/* Botão do WhatsApp e Cookie Banner globais */}
             <WhatsAppButton />
             <CookieConsent />
           </main>

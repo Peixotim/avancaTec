@@ -56,7 +56,7 @@ export default function Storaged(): CardPageProps[] {
         "Suporte dedicado",
       ],
       img:{
-        src:"https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+        src:"",
         alt:"Desenvolvedor trabalhando com código em múltiplas telas",
       },
       bgColorFlag: "bg-indigo-100 text-indigo-800", // <-- MUDADO
@@ -77,7 +77,7 @@ export default function Storaged(): CardPageProps[] {
         "Formação completa",
       ],
       img:{
-        src:"https://images.pexels.com/photos/3861439/pexels-photo-3861439.jpeg",
+        src:"",
         alt:"Engenheiro industrial inspecionando maquinário em uma fábrica",
       },
       bgColorFlag: "bg-amber-100 text-amber-800", // <-- MUDADO
@@ -98,7 +98,7 @@ export default function Storaged(): CardPageProps[] {
         "Conteúdo atualizado",
       ],
       img:{
-        src: "https://images.pexels.com/photos/2249603/pexels-photo-2249603.jpeg",
+        src: "",
         alt: "Canteiro de obras de um grande projeto de infraestrutura urbana"
       },
       bgColorFlag: "bg-red-100 text-red-800", // <-- MUDADO
@@ -119,7 +119,7 @@ export default function Storaged(): CardPageProps[] {
         "Aulas com especialistas",
       ],
       img:{
-        src:"https://images.pexels.com/photos/4207892/pexels-photo-4207892.jpeg",
+        src:"",
         alt:"Agrônomo analisando uma plantação com um tablet na mão",
       },
       bgColorFlag: "bg-green-100 text-green-800", // <-- MUDADO
@@ -140,7 +140,7 @@ export default function Storaged(): CardPageProps[] {
         "Flexibilidade total",
       ],
       img:{
-        src:"https://images.pexels.com/photos/8940733/pexels-photo-8940733.jpeg",
+        src:"",
         alt:"Chef de cozinha profissional preparando um prato gourmet"
       },
       bgColorFlag: "bg-amber-100 text-amber-800", // <-- MUDADO

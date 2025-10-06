@@ -1,27 +1,35 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://colegioavancatec.com.br";
+
   return [
     {
-      url: "https://seudominio.com/",
+      url: `${baseUrl}/`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1.0,
     },
     {
-      url: "https://seudominio.com/cursos",
+      url: `${baseUrl}/cursos`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: "https://seudominio.com/sobre",
+      url: `${baseUrl}/sistec`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/contato`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.7,
     },
     {
-      url: "https://seudominio.com/contato",
+      url: `${baseUrl}/sobre`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.6,

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ArrowLeft, Dot } from "lucide-react";
+import { Dot } from "lucide-react";
 import ConsultorModalTrigger from "./ConsultorModalTrigger";
 import Image from "next/image";
 

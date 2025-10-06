@@ -1,5 +1,4 @@
 "use client";
-import Header from "@/components/sidebar";
 import CertificationSteps from "@/components/CertificationSteps";
 import Footer from "@/components/footer";
 import { HeroSection } from "@/components/Banner";
