@@ -12,7 +12,6 @@ import {
   X,
   GraduationCapIcon,
 } from "lucide-react";
-import Image from "next/image";
 
 const menuItems = [
   { name: "Início", icon: <Home size={20} />, href: "/" },
