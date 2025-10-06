@@ -12,7 +12,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Torne-se o elo vital entre a comunidade e os serviços de saúde, promovendo bem-estar e prevenção.",
       badge: "Essencial na Comunidade",
       img: {
-        src: "https://images.pexels.com/photos/8942125/pexels-photo-8942125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Profissional da saúde realizando visita domiciliar",
       },
     },
@@ -23,7 +23,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Domine as técnicas laboratoriais essenciais para o diagnóstico preciso e o avanço da medicina.",
       badge: "Precisão e Cuidado",
       img: {
-        src: "https://images.pexels.com/photos/3993243/pexels-photo-3993243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Cientista em laboratório de análises clínicas com microscópio",
       },
     },
@@ -34,7 +34,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Especialize-se no cuidado humanizado e na qualidade de vida da população idosa, um mercado em expansão.",
       badge: "Cuidado e Respeito",
       img: {
-        src: "https://images.pexels.com/photos/4061442/pexels-photo-4061442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Cuidador auxiliando uma pessoa idosa",
       },
     },
@@ -45,7 +45,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Prepare-se para atuar na linha de frente do cuidado, com formação prática e humanizada.",
       badge: "Mais Procurado",
       img: {
-        src: "https://images.pexels.com/photos/3786126/pexels-photo-3786126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnica de enfermagem sorrindo em ambiente hospitalar",
       },
     },
@@ -56,7 +56,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Seja o especialista por trás da tecnologia que salva vidas, garantindo o funcionamento de equipamentos hospitalares.",
       badge: "Tecnologia e Saúde",
       img: {
-        src: "https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico realizando manutenção em equipamento biomédico",
       },
     },
@@ -67,7 +67,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Transforme o bem-estar e a autoestima das pessoas através de técnicas estéticas modernas e seguras.",
       badge: "Mercado Aquecido",
       img: {
-        src: "https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Profissional de estética realizando procedimento facial",
       },
     },
@@ -78,7 +78,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Atue no suporte essencial em farmácias e drogarias, garantindo a correta dispensação de medicamentos.",
       badge: "Cuidado Essencial",
       img: {
-        src: "https://images.pexels.com/photos/7615469/pexels-photo-7615469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnica em farmácia organizando medicamentos",
       },
     },
@@ -89,7 +89,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Prepare-se para liderar e administrar equipes e processos em clínicas, hospitais e unidades de saúde.",
       badge: "Liderança e Gestão",
       img: {
-        src: "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Pessoas em reunião de gestão em um ambiente de saúde",
       },
     },
@@ -100,7 +100,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Promova a saúde e a qualidade de vida através da alimentação, elaborando planos nutricionais e cardápios.",
       badge: "Vida Saudável",
       img: {
-        src: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Nutricionista com prato de comida saudável",
       },
     },
@@ -111,7 +111,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Opere equipamentos de diagnóstico por imagem, sendo fundamental para a descoberta e tratamento de doenças.",
       badge: "Alta Tecnologia",
       img: {
-        src: "https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico em radiologia operando máquina de raio-x",
       },
     },
@@ -122,7 +122,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Atue ao lado de dentistas na promoção da saúde bucal, prevenção de doenças e em procedimentos clínicos.",
       badge: "Sorriso e Cuidado",
       img: {
-        src: "https://images.pexels.com/photos/6528859/pexels-photo-6528859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Assistente de saúde bucal auxiliando dentista",
       },
     },
@@ -133,7 +133,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Dedique-se ao cuidado e bem-estar dos animais, auxiliando médicos veterinários em clínicas e hospitais.",
       badge: "Paixão Animal",
       img: {
-        src: "https://images.pexels.com/photos/6235116/pexels-photo-6235116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico em veterinária cuidando de um cachorro",
       },
     },
@@ -144,7 +144,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Desenvolva uma visão estratégica de negócios e prepare-se para organizar, gerir e liderar em qualquer setor.",
       badge: "Base para o Sucesso",
       img: {
-        src: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Equipe de administração em reunião de planejamento",
       },
     },
@@ -155,7 +155,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Seja o profissional que garante a saúde financeira das empresas, dominando a organização de contas e tributos.",
       badge: "Organização e Precisão",
       img: {
-        src: "https://images.pexels.com/photos/7567433/pexels-photo-7567433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Pessoa trabalhando com calculadora e planilhas de contabilidade",
       },
     },
@@ -166,7 +166,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Aprenda a criar estratégias de divulgação, fortalecer marcas e impulsionar vendas no mercado digital e físico.",
       badge: "Criatividade e Estratégia",
       img: {
-        src: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Gráficos e dados em uma apresentação de marketing",
       },
     },
@@ -177,7 +177,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Garanta a excelência em produtos e serviços, implementando e monitorando padrões de qualidade.",
       badge: "Padrão de Excelência",
       img: {
-        src: "https://images.pexels.com/photos/3807744/pexels-photo-3807744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Inspetor de qualidade analisando produto em uma fábrica",
       },
     },
@@ -188,7 +188,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Especialize-se na gestão de pessoas, desde a seleção e treinamento até o desenvolvimento de talentos.",
       badge: "Gestão de Pessoas",
       img: {
-        src: "https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Profissional de recursos humanos em uma entrevista de emprego",
       },
     },
@@ -199,7 +199,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Seja a peça-chave na organização e administração de instituições de ensino, garantindo o bom funcionamento.",
       badge: "Organização Essencial",
       img: {
-        src: "https://images.pexels.com/photos/5212353/pexels-photo-5212353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Ambiente de uma secretaria escolar com arquivos e computador",
       },
     },
@@ -210,7 +210,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Torne-se um profissional indispensável, garantindo a segurança e o bem-estar em ambientes de trabalho.",
       badge: "Essencial",
       img: {
-        src: "https://images.pexels.com/photos/1216559/pexels-photo-1216559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico de segurança do trabalho com capacete em uma obra",
       },
     },
@@ -221,7 +221,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Atue no suporte administrativo e processual de escritórios de advocacia, cartórios e departamentos jurídicos.",
       badge: "Suporte Jurídico",
       img: {
-        src: "https://images.pexels.com/photos/5816283/pexels-photo-5816283.jpeg",
+        src: "",
         alt: "Pessoa trabalhando em um escritório de advocacia com livros de direito",
       },
     },
@@ -232,7 +232,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Torne-se um corretor de imóveis qualificado, pronto para intermediar negociações de compra, venda e aluguel.",
       badge: "Mercado Imobiliário",
       img: {
-        src: "https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Corretor de imóveis entregando as chaves de uma casa",
       },
     },
@@ -243,7 +243,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Domine as técnicas de negociação e persuasão para se tornar um vendedor de alta performance.",
       badge: "Foco em Resultados",
       img: {
-        src: "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Vendedor atendendo cliente em uma loja",
       },
     },
@@ -254,7 +254,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Aprenda a planejar, organizar e executar eventos de sucesso, de pequenas reuniões a grandes conferências.",
       badge: "Momentos Inesquecíveis",
       img: {
-        src: "https://images.pexels.com/photos/2747901/pexels-photo-2747901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Organizador de eventos coordenando uma conferência",
       },
     },
@@ -265,7 +265,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Trabalhe na fronteira da ciência, aplicando conhecimentos biológicos em processos industriais e de saúde.",
       badge: "Nova Fronteira",
       img: {
-        src: "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Cientista trabalhando com amostras em laboratório de biotecnologia",
       },
     },
@@ -276,7 +276,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Dê vida a ideias através de imagens, tipografia e elementos visuais para comunicação digital e impressa.",
       badge: "Criatividade Visual",
       img: {
-        src: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Designer gráfico trabalhando em um computador com software de edição",
       },
     },
@@ -287,7 +287,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Aprenda a criar os softwares e aplicativos que movem o mundo digital, do design à implementação.",
       badge: "Alta Empregabilidade",
       img: {
-        src: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Desenvolvedor de sistemas programando com código na tela",
       },
     },
@@ -298,7 +298,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Especialize-se na criação e manutenção de websites, portais e aplicações para a internet.",
       badge: "Construindo a Web",
       img: {
-        src: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Profissional de informática para internet criando um website",
       },
     },
@@ -309,7 +309,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Garanta a conectividade e a segurança de sistemas, implementando e gerenciando infraestruturas de redes.",
       badge: "Mundo Conectado",
       img: {
-        src: "https://images.pexels.com/photos/5380649/pexels-photo-5380649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico de redes trabalhando em um data center com servidores",
       },
     },
@@ -320,7 +320,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Faça parte da revolução energética, projetando e instalando sistemas de energia limpa como a solar e eólica.",
       badge: "Futuro Sustentável",
       img: {
-        src: "https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico instalando painéis solares em um telhado",
       },
     },
@@ -331,7 +331,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Atue na instalação e manutenção de sistemas de comunicação que conectam o mundo.",
       badge: "Comunicação Global",
       img: {
-        src: "https://images.pexels.com/photos/4099099/pexels-photo-4099099.jpeg",
+        src: "",
         alt: "Técnico trabalhando em uma torre de telecomunicações",
       },
     },
@@ -342,7 +342,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Promova a inclusão e a acessibilidade, tornando-se um profissional essencial na comunicação com a comunidade surda.",
       badge: "Conectando Mundos",
       img: {
-        src: "https://images.pexels.com/photos/4342401/pexels-photo-4342401.jpeg",
+        src: "",
         alt: "Mãos fazendo um sinal da Língua Brasileira de Sinais (Libras)",
       },
     },
@@ -353,7 +353,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Projete e opere os sistemas robóticos e automatizados que movem a indústria moderna.",
       badge: "Indústria 4.0",
       img: {
-        src: "https://images.pexels.com/photos/4513940/pexels-photo-4513940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Braço robótico em uma linha de produção industrial automatizada",
       },
     },
@@ -364,7 +364,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Integre conhecimentos de mecânica e eletricidade para atuar na montagem e manutenção de sistemas industriais.",
       badge: "Força e Energia",
       img: {
-        src: "https://images.pexels.com/photos/8346066/pexels-photo-8346066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico em eletromecânica trabalhando em um motor industrial",
       },
     },
@@ -375,7 +375,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Domine projetos, instalações e manutenções de sistemas elétricos prediais e industriais com segurança.",
       badge: "Energia em Ação",
       img: {
-        src: "https://images.pexels.com/photos/5849572/pexels-photo-5849572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Eletricista trabalhando em um painel elétrico de alta tensão",
       },
     },
@@ -386,7 +386,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Aprenda a desenvolver, instalar e reparar circuitos e equipamentos eletrônicos de diversos tipos.",
       badge: "Inovação em Circuitos",
       img: {
-        src: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico em eletrônica soldando componentes em uma placa de circuito",
       },
     },
@@ -397,7 +397,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Seja o especialista que mantém a indústria em pleno funcionamento, prevenindo falhas e otimizando processos.",
       badge: "Indústria em Movimento",
       img: {
-        src: "https://images.pexels.com/photos/4474043/pexels-photo-4474043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Mecânico realizando manutenção em uma máquina industrial pesada",
       },
     },
@@ -408,7 +408,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Capacite-se para operar e realizar a manutenção de grandes equipamentos usados na construção e mineração.",
       badge: "Força e Precisão",
       img: {
-        src: "https://images.pexels.com/photos/1078884/pexels-photo-1078884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Operador em uma escavadeira em um canteiro de obras",
       },
     },
@@ -419,7 +419,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Aprenda sobre os processos de extração, transformação e aplicação de metais na indústria de base.",
       badge: "Transformando Metais",
       img: {
-        src: "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Trabalhador em uma siderúrgica com metal derretido",
       },
     },
@@ -430,7 +430,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Instale e realize a manutenção de sistemas de ar-condicionado e refrigeração em residências e indústrias.",
       badge: "Conforto e Tecnologia",
       img: {
-        src: "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico realizando manutenção em uma unidade de ar condicionado",
       },
     },
@@ -441,7 +441,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Domine as técnicas para unir estruturas metálicas com precisão e segurança, um trabalho fundamental na indústria.",
       badge: "Unindo Estruturas",
       img: {
-        src: "https://images.pexels.com/photos/209230/pexels-photo-209230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Soldador com máscara de proteção trabalhando em estrutura metálica",
       },
     },
@@ -452,7 +452,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Especialize-se na manutenção de motores e sistemas de embarcações, garantindo segurança e performance.",
       badge: "Navegando com Segurança",
       img: {
-        src: "https://images.pexels.com/photos/2115367/pexels-photo-2115367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Engenheiro naval trabalhando na sala de máquinas de um navio",
       },
     },
@@ -463,7 +463,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Realize medições e levantamentos topográficos de terrenos, sendo essencial para projetos de engenharia e construção.",
       badge: "Mapeando o Futuro",
       img: {
-        src: "https://images.pexels.com/photos/431722/pexels-photo-431722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Agrimensor utilizando um teodolito em um campo",
       },
     },
@@ -474,7 +474,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Participe de todas as etapas de uma obra, do planejamento e desenho à execução e controle de qualidade.",
       badge: "Construindo o Futuro",
       img: {
-        src: "https://images.pexels.com/photos/3139612/pexels-photo-3139612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico em edificações analisando a planta de uma construção",
       },
     },
@@ -485,7 +485,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Atue nos processos de extração e beneficiamento de minérios com foco em segurança e sustentabilidade.",
       badge: "Riqueza da Terra",
       img: {
-        src: "https://images.pexels.com/photos/8593455/pexels-photo-8593455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Minerador com capacete e lanterna em uma mina",
       },
     },
@@ -496,7 +496,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Capacite-se para atuar como bombeiro civil, protegendo vidas e patrimônios em situações de emergência.",
       badge: "Segurança em Primeiro Lugar",
       img: {
-        src: "https://images.pexels.com/photos/69934/firefighters-fire-flames-outside-69934.jpeg",
+        src: "",
         alt: "Bombeiro em ação combatendo um incêndio",
       },
     },
@@ -507,7 +507,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Aprenda a prevenir e atuar em situações de desastres, protegendo a comunidade e o meio ambiente.",
       badge: "Protegendo Comunidades",
       img: {
-        src: "https://images.pexels.com/photos/933624/pexels-photo-933624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Agente da defesa civil em uma área de desastre",
       },
     },
@@ -518,7 +518,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Atue no planejamento, operação e fiscalização do trânsito para garantir a segurança e a mobilidade urbana.",
       badge: "Mobilidade e Segurança",
       img: {
-        src: "https://images.pexels.com/photos/2244746/pexels-photo-2244746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Agente de trânsito organizando o fluxo de veículos em uma cidade",
       },
     },
@@ -529,7 +529,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Aprenda sobre o cultivo do solo, manejo de culturas e gestão da produção agrícola de forma sustentável.",
       badge: "Cultivando o Futuro",
       img: {
-        src: "https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Agricultor analisando a colheita em um campo de cultivo",
       },
     },
@@ -540,7 +540,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Gerencie de forma integrada a produção agrícola e a criação de animais, visando a produtividade e sustentabilidade.",
       badge: "Campo e Produção",
       img: {
-        src: "https://images.pexels.com/photos/33325761/pexels-photo-33325761.jpeg",
+        src: "",
         alt: "Técnico agropecuário cuidando do gado em um pasto",
       },
     },
@@ -551,7 +551,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Atue no processamento e industrialização de matérias-primas de origem animal e vegetal.",
       badge: "Do Campo à Mesa",
       img: {
-        src: "https://images.pexels.com/photos/289387/pexels-photo-289387.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Linha de produção e processamento de alimentos em uma agroindústria",
       },
     },
@@ -562,7 +562,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Aprenda a cultivar peixes, crustáceos e outros organismos aquáticos de forma sustentável e produtiva.",
       badge: "Cultivando Águas",
       img: {
-        src: "https://images.pexels.com/photos/816198/pexels-photo-816198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico em aquicultura trabalhando em tanques de criação de peixes",
       },
     },
@@ -573,7 +573,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Atue na preservação dos recursos naturais, gestão de resíduos e desenvolvimento de projetos sustentáveis.",
       badge: "Planeta em Foco",
       img: {
-        src: "https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico em meio ambiente coletando amostra de água em um rio",
       },
     },
@@ -584,7 +584,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Transforme sua paixão pela culinária em uma carreira de sucesso, dominando técnicas e sabores.",
       badge: "Carreira Saborosa",
       img: {
-        src: "https://images.pexels.com/photos/3217157/pexels-photo-3217157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Chef de cozinha preparando um prato gourmet",
       },
     },
@@ -595,7 +595,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Atue no mercado de saúde visual, confeccionando, consertando e adaptando óculos e lentes de contato.",
       badge: "Visão e Precisão",
       img: {
-        src: "https://images.pexels.com/photos/5215017/pexels-photo-5215017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Técnico em óptica ajustando um par de óculos",
       },
     },
@@ -606,7 +606,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Crie espaços funcionais, confortáveis e esteticamente agradáveis, transformando ambientes e vidas.",
       badge: "Criatividade e Espaço",
       img: {
-        src: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Ambiente de sala de estar moderno e bem decorado",
       },
     },
@@ -617,7 +617,7 @@ export default function StoragedCourses(): CourseCardProps[] {
       description: "Conduza visitantes por roteiros turísticos, compartilhando cultura, história e informações sobre os destinos.",
       badge: "Explorando Destinos",
       img: {
-        src: "https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "",
         alt: "Guia de turismo orientando um grupo de turistas em um ponto turístico",
       },
     },

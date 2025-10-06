@@ -62,15 +62,7 @@ export default function Sidebar() {
                 initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
                 className="relative w-32 h-12"
-              >
-                <Image
-                  src="/images/AvancaTec.png"
-                  alt="AvançaTec"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </motion.div>
+              ></motion.div>
             )}
           </div>
 
@@ -114,15 +106,7 @@ export default function Sidebar() {
             className="fixed top-0 left-0 z-50 w-64 h-full bg-gradient-to-b from-[#024E0E] via-[#046D18] to-[#0B3C1B] shadow-xl p-6 flex flex-col justify-between rounded-r-3xl text-white"
           >
             <div>
-              <div className="relative w-32 h-12 mb-8">
-                <Image
-                  src="/images/AvancaTec.png"
-                  alt="AvançaTec"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
+              <div className="relative w-32 h-12 mb-8"></div>
               <ul className="space-y-6">
                 {menuItems.map((item) => (
                   <li key={item.name}>

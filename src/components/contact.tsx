@@ -9,14 +9,14 @@ export default function Contact() {
     {
       icon: <MessageCircle className="w-6 h-6 text-green-600" />,
       label: "Telefone Suporte",
-      value: "(31) 98505-1313",
-      href: "https://wa.me/31999022636", // link do WhatsApp
+      value: "(31) 98263-1563",
+      href: "https://wa.me/31982631563", // link do WhatsApp
     },
     {
       icon: <Mail className="w-6 h-6 text-red-500" />,
       label: "E-mail",
-      value: "colegiotecnicoeducacanaa@gmail.com",
-      href: "mailto:colegiotecnicoeducacanaa@gmail.com",
+      value: "gestaoavancatec@gmail.com",
+      href: "mailto:gestaoavancatec@gmail.com",
     },
     {
       icon: <Instagram className="w-6 h-6 text-pink-500" />,
@@ -27,8 +27,9 @@ export default function Contact() {
     {
       icon: <MapPin className="w-6 h-6 text-green-600" />,
       label: "Endereço",
-      value: "Canaã dos Carajás, 94, Bairro Vale Dourado, Pará",
-      href: "https://www.google.com/maps/search/?api=1&query=Canaã+dos+Carajás,+94,+Vale+Dourado,+Pará",
+      value:
+        "R. Luiz Rodrigues dos Santos, 44 - Todos Os Santos, Cel. Fabriciano - MG",
+      href: "https://www.google.com/maps/search/?api=1&query=R.+Luiz+Rodrigues+dos+Santos,+44+-+Todos+Os+Santos,+Cel.+Fabriciano+-+MG",
     },
   ];
 
