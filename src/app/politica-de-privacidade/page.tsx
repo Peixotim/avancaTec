@@ -108,10 +108,10 @@ export default function PoliticaPrivacidade() {
               portabilidade dos seus dados. Para exercer esses direitos, entre
               em contato conosco pelo e-mail{" "}
               <a
-                href="mailto:colegiotecnicoeducacanaa@gmail.com"
+                href="mailto:gestaoavancatec@gmail.com"
                 className="text-[#024E0E] font-semibold hover:underline"
               >
-                colegiotecnicoeducacanaa@gmail.com
+                gestaoavancatec@gmail.com
               </a>
               .
             </p>
