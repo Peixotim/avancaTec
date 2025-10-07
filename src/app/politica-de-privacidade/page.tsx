@@ -19,7 +19,7 @@ export default function PoliticaPrivacidade() {
       <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl p-10 border border-zinc-200">
         {/* Cabeçalho */}
         <div className="flex items-center gap-4 mb-10">
-          <div className="p-3 rounded-2xl bg-gradient-to-br from-[#8B1A3B] to-[#6A0E29] shadow-md">
+          <div className="p-3 rounded-2xl bg-gradient-to-br from-[#024E0E] to-[#024E0E] shadow-md">
             <ShieldCheck className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-4xl font-extrabold text-zinc-800">
@@ -31,7 +31,7 @@ export default function PoliticaPrivacidade() {
           Sua privacidade é muito importante para nós. Esta Política de
           Privacidade descreve como coletamos, usamos e protegemos suas
           informações em conformidade com a{" "}
-          <span className="font-semibold text-[#8B1A3B]">
+          <span className="font-semibold text-[#024E0E]">
             Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018)
           </span>
           .
@@ -41,7 +41,7 @@ export default function PoliticaPrivacidade() {
         <div className="space-y-8 text-zinc-700 leading-relaxed">
           <section className="p-6 rounded-2xl bg-zinc-50 border border-zinc-200 shadow-sm">
             <div className="flex items-center gap-2 mb-3">
-              <User className="w-6 h-6 text-[#8B1A3B]" />
+              <User className="w-6 h-6 text-[#024E0E]" />
               <h2 className="text-xl font-bold text-zinc-800">
                 1. Dados que coletamos
               </h2>
@@ -56,7 +56,7 @@ export default function PoliticaPrivacidade() {
 
           <section className="p-6 rounded-2xl bg-zinc-50 border border-zinc-200 shadow-sm">
             <div className="flex items-center gap-2 mb-3">
-              <FileCheck className="w-6 h-6 text-[#8B1A3B]" />
+              <FileCheck className="w-6 h-6 text-[#024E0E]" />
               <h2 className="text-xl font-bold text-zinc-800">
                 2. Como utilizamos seus dados
               </h2>
@@ -73,7 +73,7 @@ export default function PoliticaPrivacidade() {
 
           <section className="p-6 rounded-2xl bg-zinc-50 border border-zinc-200 shadow-sm">
             <div className="flex items-center gap-2 mb-3">
-              <Share2 className="w-6 h-6 text-[#8B1A3B]" />
+              <Share2 className="w-6 h-6 text-[#024E0E]" />
               <h2 className="text-xl font-bold text-zinc-800">
                 3. Compartilhamento de dados
               </h2>
@@ -86,7 +86,7 @@ export default function PoliticaPrivacidade() {
 
           <section className="p-6 rounded-2xl bg-zinc-50 border border-zinc-200 shadow-sm">
             <div className="flex items-center gap-2 mb-3">
-              <Lock className="w-6 h-6 text-[#8B1A3B]" />
+              <Lock className="w-6 h-6 text-[#024E0E]" />
               <h2 className="text-xl font-bold text-zinc-800">4. Segurança</h2>
             </div>
             <p className="text-zinc-600">
@@ -98,7 +98,7 @@ export default function PoliticaPrivacidade() {
 
           <section className="p-6 rounded-2xl bg-zinc-50 border border-zinc-200 shadow-sm">
             <div className="flex items-center gap-2 mb-3">
-              <Shield className="w-6 h-6 text-[#8B1A3B]" />
+              <Shield className="w-6 h-6 text-[#024E0E]" />
               <h2 className="text-xl font-bold text-zinc-800">
                 5. Seus direitos
               </h2>
@@ -109,7 +109,7 @@ export default function PoliticaPrivacidade() {
               em contato conosco pelo e-mail{" "}
               <a
                 href="mailto:colegiotecnicoeducacanaa@gmail.com"
-                className="text-[#8B1A3B] font-semibold hover:underline"
+                className="text-[#024E0E] font-semibold hover:underline"
               >
                 colegiotecnicoeducacanaa@gmail.com
               </a>
@@ -119,7 +119,7 @@ export default function PoliticaPrivacidade() {
 
           <section className="p-6 rounded-2xl bg-zinc-50 border border-zinc-200 shadow-sm">
             <div className="flex items-center gap-2 mb-3">
-              <RefreshCw className="w-6 h-6 text-[#8B1A3B]" />
+              <RefreshCw className="w-6 h-6 text-[#024E0E]" />
               <h2 className="text-xl font-bold text-zinc-800">
                 6. Alterações nesta política
               </h2>
