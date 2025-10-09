@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Instagram } from "lucide-react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,18 +8,21 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* COLUNA 1 - SOBRE */}
           <div className="space-y-4">
+            {/* ✅ LOGO IMAGEM */}
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-[#F2A413] rounded-lg flex items-center justify-center shadow-lg">
-                <span className="text-[#024E0E] font-extrabold text-xl">A</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-[#F2A413]">AvançaTec</h3>
-                <p className="text-xs text-[#F2A413]/90">
-                  Educação Técnica de Excelência
-                </p>
-              </div>
+              <Image
+                src="/av.png"
+                alt="AvançaTec Logo"
+                width={220}
+                height={64}
+                className="drop-shadow-[0_3px_6px_rgba(0,0,0,0.3)]"
+                priority
+              />
             </div>
-            <p className="text-sm text-white/80 leading-relaxed">
+            <span className="text-amber-500 text-medium">
+              Educação Técnica de Excelência
+            </span>
+            <p className="text-sm text-white/80 leading-relaxed pt-2">
               Transformando vidas através da educação. Construindo profissionais
               do futuro com competência e inovação.
             </p>
@@ -113,15 +117,14 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 mt-1 text-[#F2A413]" />
                 <span>
-                  R. Luiz Rodrigues dos Santos
-                  <br />
+                  R. Luiz Rodrigues dos Santos, 44 <br />
                   Cel. Fabriciano - MG
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-[#F2A413]" />
                 <a
-                  href="mailto:ilconsultoria@outlook.com"
+                  href="mailto:gestaoavancatec@gmail.com"
                   className="hover:text-[#F2A413]"
                 >
                   gestaoavancatec@gmail.com

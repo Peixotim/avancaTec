@@ -12,6 +12,7 @@ import {
   X,
   GraduationCapIcon,
 } from "lucide-react";
+import Image from "next/image";
 
 // ========================
 // 📚 Dados de Menu
@@ -28,40 +29,33 @@ const menuItems = [
   },
 ];
 
-import Image from "next/image";
-
+// ========================
+// 🎨 Logo — “A” no modo fechado / seta no expandido
+// ========================
 function Logo({ expanded = false }) {
   return (
     <motion.div
-      key={expanded ? "logo-full" : "logo-mini"}
-      initial={{ opacity: 0, x: -10, scale: 0.8 }}
+      key={expanded ? "logo-expanded" : "logo-mini"}
+      initial={{ opacity: 0, x: expanded ? -20 : 0, scale: 0.9 }}
       animate={{ opacity: 1, x: 0, scale: 1 }}
-      exit={{ opacity: 0, x: -10, scale: 0.8 }}
-      transition={{ type: "spring", stiffness: 260, damping: 20 }}
-      className="flex items-center justify-center gap-2"
+      exit={{ opacity: 0, x: expanded ? -20 : 0, scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 200, damping: 18 }}
+      className={`flex items-center w-full ${
+        expanded ? "justify-start pl-2" : "justify-center"
+      }`}
     >
       {expanded ? (
-        <>
-          {/* 🔸 Logo com imagem da seta */}
-          <div className="flex items-center gap-2">
-            <Image
-              src="/seta.png"
-              alt="Logo AvançaTec"
-              width={40}
-              height={40}
-              className="drop-shadow-[0_2px_8px_rgba(245,158,11,0.4)]"
-              priority
-            />
-            <h1
-              className="text-2xl font-extrabold bg-gradient-to-r from-yellow-400 via-orange-400 to-amber-500 
-                           bg-clip-text text-transparent tracking-tight drop-shadow-[0_2px_6px_rgba(245,158,11,0.35)]"
-            >
-              AVANÇA<span className="">TEC</span>
-            </h1>
-          </div>
-        </>
+        // 🔸 Versão expandida — só a seta
+        <Image
+          src="/seta.png"
+          alt="Logo AvançaTec"
+          width={40}
+          height={40}
+          className="drop-shadow-[0_2px_8px_rgba(245,158,11,0.4)]"
+          priority
+        />
       ) : (
-        // 🔹 Versão compacta (mini logo)
+        // 🔹 Versão minimizada — só o “A”
         <div
           className="w-10 h-10 grid place-items-center rounded-xl
                      bg-gradient-to-br from-[#F59E0B] to-[#D97706]
@@ -73,8 +67,9 @@ function Logo({ expanded = false }) {
     </motion.div>
   );
 }
+
 // ========================
-// 🧭 Componente Sidebar
+// 🧭 Sidebar
 // ========================
 export default function Sidebar() {
   const [expanded, setExpanded] = useState(false);
@@ -103,8 +98,8 @@ export default function Sidebar() {
       >
         <div className="flex flex-col justify-between w-full p-4">
           {/* LOGO */}
-          <div className="flex items-center justify-center mb-10">
-            <AnimatePresence initial={false}>
+          <div className="flex items-center mb-10">
+            <AnimatePresence initial={false} mode="wait">
               <Logo expanded={expanded} />
             </AnimatePresence>
           </div>
@@ -154,7 +149,7 @@ export default function Sidebar() {
                        shadow-xl p-6 flex flex-col justify-between rounded-r-3xl text-white"
           >
             {/* LOGO MOBILE */}
-            <div className="flex flex-col items-center mb-8">
+            <div className="flex items-start mb-8">
               <Logo expanded />
             </div>
 
