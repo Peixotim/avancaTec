@@ -28,9 +28,8 @@ const menuItems = [
   },
 ];
 
-// ========================
-// 🎨 Componente Logo
-// ========================
+import Image from "next/image";
+
 function Logo({ expanded = false }) {
   return (
     <motion.div
@@ -43,26 +42,26 @@ function Logo({ expanded = false }) {
     >
       {expanded ? (
         <>
-          {/* Setas do logo */}
-          <div className="flex gap-[4px]">
-            {[...Array(2)].map((_, i) => (
-              <div
-                key={i}
-                className="w-0 h-0 border-t-[6px] border-b-[6px] border-l-[10px]
-                           border-t-transparent border-b-transparent border-l-yellow-400"
-              />
-            ))}
+          {/* 🔸 Logo com imagem da seta */}
+          <div className="flex items-center gap-2">
+            <Image
+              src="/seta.png"
+              alt="Logo AvançaTec"
+              width={40}
+              height={40}
+              className="drop-shadow-[0_2px_8px_rgba(245,158,11,0.4)]"
+              priority
+            />
+            <h1
+              className="text-2xl font-extrabold bg-gradient-to-r from-yellow-400 via-orange-400 to-amber-500 
+                           bg-clip-text text-transparent tracking-tight drop-shadow-[0_2px_6px_rgba(245,158,11,0.35)]"
+            >
+              AVANÇA<span className="">TEC</span>
+            </h1>
           </div>
-
-          {/* Texto AvançaTec */}
-          <h1
-            className="text-2xl font-extrabold bg-gradient-to-r from-yellow-400 via-orange-400 to-amber-500 
-                         bg-clip-text text-transparent tracking-tight drop-shadow-[0_2px_6px_rgba(245,158,11,0.35)]"
-          >
-            AVANÇA<span className="">TEC</span>
-          </h1>
         </>
       ) : (
+        // 🔹 Versão compacta (mini logo)
         <div
           className="w-10 h-10 grid place-items-center rounded-xl
                      bg-gradient-to-br from-[#F59E0B] to-[#D97706]
@@ -74,7 +73,6 @@ function Logo({ expanded = false }) {
     </motion.div>
   );
 }
-
 // ========================
 // 🧭 Componente Sidebar
 // ========================
