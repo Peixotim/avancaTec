@@ -25,7 +25,7 @@ const Footer = () => {
 
             <div className="flex space-x-4 pt-2">
               <a
-                href="https://www.instagram.com/avancatec.oficial"
+                href="https://www.instagram.com/avancatecoficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
