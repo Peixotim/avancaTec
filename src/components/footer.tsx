@@ -143,7 +143,7 @@ const Footer = () => {
             © {new Date().getFullYear()} AvançaTec. Todos os direitos
             reservados.
           </p>
-          <p className="text-sm text-white/70">CNPJ: 38.063.045/0001-88</p>
+          <p className="text-sm text-white/70">CNPJ: 63.110.547/0001-60</p>
         </div>
       </div>
     </footer>
