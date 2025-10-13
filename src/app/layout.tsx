@@ -11,62 +11,26 @@ const montserrat = Montserrat({
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "AvançaTec - Cursos Técnicos e Profissionalizantes",
-    template: "%s | AvançaTec",
-  },
+export const metadata = {
+  title:
+    "Colégio AvançaTec | Cursos Técnicos e Profissionalizantes Reconhecidos pelo MEC",
   description:
-    "AvançaTec oferece cursos técnicos e profissionalizantes reconhecidos pelo MEC. Invista na sua formação e transforme seu futuro com educação de excelência!",
+    "O Colégio AvançaTec oferece cursos técnicos e profissionalizantes reconhecidos pelo MEC. Transforme seu futuro com educação técnica de excelência.",
   keywords: [
-    "avançatec",
-    "colégio avançatec",
+    "colégio avancatec",
+    "avancatec",
     "cursos técnicos",
-    "cursos profissionalizantes",
-    "educação técnica",
-    "Canaã dos Carajás",
-    "ensino técnico",
-    "colégio técnico",
+    "curso técnico em enfermagem",
+    "curso de refrigeração",
+    "escola técnica",
+    "educação profissional",
+    "cursos reconhecidos pelo MEC",
+    "curso técnico em administração",
+    "curso técnico em informática",
+    "curso técnico MG",
+    "ensino técnico em Coronel Fabriciano",
   ],
-  authors: [{ name: "AvançaTec" }],
-  creator: "AvançaTec",
-  publisher: "AvançaTec",
-  metadataBase: new URL("https://colegioavancatec.com.br"),
-  openGraph: {
-    title: "AvançaTec - Cursos Técnicos e Profissionalizantes",
-    description:
-      "Transforme sua vida com cursos técnicos e profissionalizantes reconhecidos pelo MEC. Conheça o AvançaTec e dê o próximo passo na sua carreira!",
-    url: "https://colegioavancatec.com.br",
-    siteName: "AvançaTec",
-    images: [
-      {
-        url: "https://colegioavancatec.com.br/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "AvançaTec - Educação Técnica de Qualidade",
-      },
-    ],
-    locale: "pt_BR",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "AvançaTec - Cursos Técnicos e Profissionalizantes",
-    description:
-      "Cursos técnicos de qualidade reconhecidos pelo MEC. Matricule-se no AvançaTec e conquiste seu futuro!",
-    images: ["https://colegioavancatec.com.br/og-image.jpg"],
-  },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
