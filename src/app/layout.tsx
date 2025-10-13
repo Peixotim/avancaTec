@@ -39,11 +39,14 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth scroll-pt-24">
       <head>
-        {/* SEO Schema e Favicon */}
         <SchemaOrg />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
         <meta name="theme-color" content="#024E0E" />
+        <meta
+          name="google-site-verification"
+          content="CNScKtYMuazZjXrh3r8i8LHVtEcb70eC5-re9VMWySY"
+        />
       </head>
 
       <body
