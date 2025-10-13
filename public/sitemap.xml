@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <!-- 🌐 PÁGINA PRINCIPAL -->
+  <url>
+    <loc>https://colegioavancatec.com.br/</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- 🧭 PÁGINAS PRINCIPAIS -->
+  <url>
+    <loc>https://colegioavancatec.com.br/sobre</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://colegioavancatec.com.br/contato</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://colegioavancatec.com.br/sistec</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 🧑‍🎓 SEÇÕES INTERNAS -->
+  <url>
+    <loc>https://colegioavancatec.com.br/#cursos</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://colegioavancatec.com.br/#contato</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://colegioavancatec.com.br/#Certificado</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 📘 CURSOS INDIVIDUAIS -->
+  <url>
+    <loc>https://colegioavancatec.com.br/cursos/tecnico-em-enfermagem</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://colegioavancatec.com.br/cursos/administracao</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://colegioavancatec.com.br/cursos/refrigeracao-e-climatizacao</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://colegioavancatec.com.br/cursos/informatica</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://colegioavancatec.com.br/cursos/ead</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 🧩 OUTRAS PÁGINAS RELEVANTES -->
+  <url>
+    <loc>https://colegioavancatec.com.br/politica-de-privacidade</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://colegioavancatec.com.br/termos-de-uso</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- 🔗 REDES SOCIAIS (AJUDA NO SEO) -->
+  <url>
+    <loc>https://www.instagram.com/avancatecoficial</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.facebook.com/colegioavancatec</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>
