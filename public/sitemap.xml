@@ -106,18 +106,4 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- 🔗 REDES SOCIAIS (AJUDA NO SEO) -->
-  <url>
-    <loc>https://www.instagram.com/avancatecoficial</loc>
-    <lastmod>2025-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://www.facebook.com/colegioavancatec</loc>
-    <lastmod>2025-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
 </urlset>
