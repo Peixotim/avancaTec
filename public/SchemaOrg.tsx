@@ -9,6 +9,10 @@ export default function SchemaOrg() {
     name: "Colégio AvançaTec",
     alternateName: [
       "AvançaTec",
+      "Colegio Avancatec",
+      "AvancaTec",
+      "colegio avancatec",
+      "avancatec",
       "Colégio Técnico AvançaTec",
       "Escola Técnica AvançaTec",
     ],
